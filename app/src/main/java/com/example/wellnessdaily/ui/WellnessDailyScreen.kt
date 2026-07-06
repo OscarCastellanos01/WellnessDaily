@@ -1,5 +1,6 @@
 package com.example.wellnessdaily.ui
 
+import androidx.compose.animation.animateContentSize
 import androidx.compose.foundation.Image
 import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.Column
@@ -18,6 +19,10 @@ import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Scaffold
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
+import androidx.compose.runtime.mutableStateOf
+import androidx.compose.runtime.remember
+import androidx.compose.runtime.setValue
+import androidx.compose.runtime.getValue
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.layout.ContentScale
 import androidx.compose.ui.res.painterResource
@@ -85,15 +90,15 @@ fun WellnessDayItem(
     day: WellnessDay,
     modifier: Modifier = Modifier
 ) {
+    var expanded by remember { mutableStateOf(false) }
     Card(
-        modifier = modifier.clickable(
-            onClick = {}
-        ),
+        modifier = modifier.clickable { expanded = !expanded },
         elevation = CardDefaults.cardElevation(defaultElevation = 2.dp)
     ) {
         Column(
             modifier = Modifier
                 .padding(16.dp)
+                .animateContentSize()
                 .fillMaxWidth()
         ) {
             Text(
@@ -114,10 +119,12 @@ fun WellnessDayItem(
                     .height(194.dp),
                 contentScale = ContentScale.Crop
             )
-            Text(
-                text = stringResource(day.wellnessDescription),
-                style = MaterialTheme.typography.bodyMedium
-            )
+            if (expanded) {
+                Text(
+                    text = stringResource(day.wellnessDescription),
+                    style = MaterialTheme.typography.bodyMedium
+                )
+            }
         }
     }
 }
