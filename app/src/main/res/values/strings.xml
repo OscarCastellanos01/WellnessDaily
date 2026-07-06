@@ -1,3 +1,122 @@
 <resources>
     <string name="app_name">Wellness Daily</string>
+    <string name="wellnessDay_1">Día 1</string>
+    <string name="wellnessTitle_1">Beber 2 litros de agua</string>
+    <string name="wellnessDescription_1">Mantén tu cuerpo hidratado durante todo el día.</string>
+
+    <string name="wellnessDay_2">Día 2</string>
+    <string name="wellnessTitle_2">Caminar 30 minutos</string>
+    <string name="wellnessDescription_2">Sal a caminar a un ritmo cómodo para mejorar tu salud cardiovascular.</string>
+
+    <string name="wellnessDay_3">Día 3</string>
+    <string name="wellnessTitle_3">Dormir 8 horas</string>
+    <string name="wellnessDescription_3">Prioriza un descanso completo para recuperar energía.</string>
+
+    <string name="wellnessDay_4">Día 4</string>
+    <string name="wellnessTitle_4">Comer una fruta</string>
+    <string name="wellnessDescription_4">Agrega una fruta fresca a tu alimentación diaria.</string>
+
+    <string name="wellnessDay_5">Día 5</string>
+    <string name="wellnessTitle_5">Meditar 10 minutos</string>
+    <string name="wellnessDescription_5">Dedica unos minutos a respirar profundamente y relajarte.</string>
+
+    <string name="wellnessDay_6">Día 6</string>
+    <string name="wellnessTitle_6">Estiramientos</string>
+    <string name="wellnessDescription_6">Realiza estiramientos para mejorar tu flexibilidad.</string>
+
+    <string name="wellnessDay_7">Día 7</string>
+    <string name="wellnessTitle_7">Leer 20 minutos</string>
+    <string name="wellnessDescription_7">Lee un libro que te inspire o te enseñe algo nuevo.</string>
+
+    <string name="wellnessDay_8">Día 8</string>
+    <string name="wellnessTitle_8">Comer verduras</string>
+    <string name="wellnessDescription_8">Incluye verduras en al menos una comida del día.</string>
+
+    <string name="wellnessDay_9">Día 9</string>
+    <string name="wellnessTitle_9">Desconexión digital</string>
+    <string name="wellnessDescription_9">Pasa una hora sin utilizar dispositivos electrónicos.</string>
+
+    <string name="wellnessDay_10">Día 10</string>
+    <string name="wellnessTitle_10">Respiración consciente</string>
+    <string name="wellnessDescription_10">Practica respiraciones profundas para reducir el estrés.</string>
+
+    <string name="wellnessDay_11">Día 11</string>
+    <string name="wellnessTitle_11">Agradecer</string>
+    <string name="wellnessDescription_11">Escribe tres cosas por las que te sientes agradecido.</string>
+
+    <string name="wellnessDay_12">Día 12</string>
+    <string name="wellnessTitle_12">Yoga</string>
+    <string name="wellnessDescription_12">Practica una sesión corta de yoga para fortalecer cuerpo y mente.</string>
+
+    <string name="wellnessDay_13">Día 13</string>
+    <string name="wellnessTitle_13">Escuchar música relajante</string>
+    <string name="wellnessDescription_13">Dedica tiempo a escuchar música que te transmita calma y bienestar.</string>
+
+    <string name="wellnessDay_14">Día 14</string>
+    <string name="wellnessTitle_14">Ordenar tu espacio</string>
+    <string name="wellnessDescription_14">Organiza tu escritorio o habitación para crear un ambiente agradable.</string>
+
+    <string name="wellnessDay_15">Día 15</string>
+    <string name="wellnessTitle_15">Comer sin prisas</string>
+    <string name="wellnessDescription_15">Disfruta cada bocado comiendo lentamente y con atención plena.</string>
+
+    <string name="wellnessDay_16">Día 16</string>
+    <string name="wellnessTitle_16">Subir escaleras</string>
+    <string name="wellnessDescription_16">Elige las escaleras en lugar del ascensor para mantenerte activo.</string>
+
+    <string name="wellnessDay_17">Día 17</string>
+    <string name="wellnessTitle_17">Sonreír más</string>
+    <string name="wellnessDescription_17">Comparte una sonrisa y mejora tu estado de ánimo y el de quienes te rodean.</string>
+
+    <string name="wellnessDay_18">Día 18</string>
+    <string name="wellnessTitle_18">Preparar una comida saludable</string>
+    <string name="wellnessDescription_18">Cocina una receta equilibrada utilizando ingredientes frescos.</string>
+
+    <string name="wellnessDay_19">Día 19</string>
+    <string name="wellnessTitle_19">Pasar tiempo en la naturaleza</string>
+    <string name="wellnessDescription_19">Visita un parque o disfruta unos minutos al aire libre.</string>
+
+    <string name="wellnessDay_20">Día 20</string>
+    <string name="wellnessTitle_20">Escribir un diario</string>
+    <string name="wellnessDescription_20">Anota tus pensamientos, emociones o logros del día.</string>
+
+    <string name="wellnessDay_21">Día 21</string>
+    <string name="wellnessTitle_21">Hacer ejercicio</string>
+    <string name="wellnessDescription_21">Realiza al menos 20 minutos de actividad física que disfrutes.</string>
+
+    <string name="wellnessDay_22">Día 22</string>
+    <string name="wellnessTitle_22">Ayudar a alguien</string>
+    <string name="wellnessDescription_22">Realiza una acción amable para hacer el día mejor a otra persona.</string>
+
+    <string name="wellnessDay_23">Día 23</string>
+    <string name="wellnessTitle_23">Evitar bebidas azucaradas</string>
+    <string name="wellnessDescription_23">Reemplaza los refrescos por agua o bebidas sin azúcar.</string>
+
+    <string name="wellnessDay_24">Día 24</string>
+    <string name="wellnessTitle_24">Practicar una afición</string>
+    <string name="wellnessDescription_24">Dedica tiempo a una actividad que disfrutes y te haga sentir bien.</string>
+
+    <string name="wellnessDay_25">Día 25</string>
+    <string name="wellnessTitle_25">Comer frutos secos</string>
+    <string name="wellnessDescription_25">Consume una porción de frutos secos como un snack saludable.</string>
+
+    <string name="wellnessDay_26">Día 26</string>
+    <string name="wellnessTitle_26">Respirar aire fresco</string>
+    <string name="wellnessDescription_26">Sal unos minutos al exterior para renovar tu energía.</string>
+
+    <string name="wellnessDay_27">Día 27</string>
+    <string name="wellnessTitle_27">Bailar</string>
+    <string name="wellnessDescription_27">Baila tu canción favorita y disfruta moviendo tu cuerpo.</string>
+
+    <string name="wellnessDay_28">Día 28</string>
+    <string name="wellnessTitle_28">Reducir el azúcar</string>
+    <string name="wellnessDescription_28">Evita alimentos con azúcar añadida durante este día.</string>
+
+    <string name="wellnessDay_29">Día 29</string>
+    <string name="wellnessTitle_29">Planificar la semana</string>
+    <string name="wellnessDescription_29">Organiza tus actividades y establece objetivos para la próxima semana.</string>
+
+    <string name="wellnessDay_30">Día 30</string>
+    <string name="wellnessTitle_30">Reflexionar sobre el reto</string>
+    <string name="wellnessDescription_30">Evalúa tus avances, celebra tus logros y establece nuevos hábitos saludables.</string>
 </resources>
