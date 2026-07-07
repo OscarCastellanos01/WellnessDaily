@@ -6,180 +6,210 @@ import com.example.wellnessdaily.model.WellnessDay
 object DataSource {
     val wellness: List<WellnessDay> = listOf(
         WellnessDay(
+            1,
             R.string.wellnessDay_1,
             R.string.wellnessTitle_1,
             R.drawable.day_01,
             R.string.wellnessDescription_1
         ),
         WellnessDay(
+            2,
             R.string.wellnessDay_2,
             R.string.wellnessTitle_2,
             R.drawable.day_02,
             R.string.wellnessDescription_2
         ),
         WellnessDay(
+            3,
             R.string.wellnessDay_3,
             R.string.wellnessTitle_3,
             R.drawable.day_03,
             R.string.wellnessDescription_3
         ),
         WellnessDay(
+            4,
             R.string.wellnessDay_4,
             R.string.wellnessTitle_4,
             R.drawable.day_04,
             R.string.wellnessDescription_4
         ),
         WellnessDay(
+            5,
             R.string.wellnessDay_5,
             R.string.wellnessTitle_5,
             R.drawable.day_05,
             R.string.wellnessDescription_5
         ),
         WellnessDay(
+            6,
             R.string.wellnessDay_6,
             R.string.wellnessTitle_6,
             R.drawable.day_06,
             R.string.wellnessDescription_6
         ),
         WellnessDay(
+            7,
             R.string.wellnessDay_7,
             R.string.wellnessTitle_7,
             R.drawable.day_07,
             R.string.wellnessDescription_7
         ),
         WellnessDay(
+            8,
             R.string.wellnessDay_8,
             R.string.wellnessTitle_8,
             R.drawable.day_08,
             R.string.wellnessDescription_8
         ),
         WellnessDay(
+            9,
             R.string.wellnessDay_9,
             R.string.wellnessTitle_9,
             R.drawable.day_09,
             R.string.wellnessDescription_9
         ),
         WellnessDay(
+            10,
             R.string.wellnessDay_10,
             R.string.wellnessTitle_10,
             R.drawable.day_10,
             R.string.wellnessDescription_10
         ),
         WellnessDay(
+            11,
             R.string.wellnessDay_11,
             R.string.wellnessTitle_11,
             R.drawable.day_11,
             R.string.wellnessDescription_11
         ),
         WellnessDay(
+            12,
             R.string.wellnessDay_12,
             R.string.wellnessTitle_12,
             R.drawable.day_12,
             R.string.wellnessDescription_12
         ),
         WellnessDay(
+            13,
             R.string.wellnessDay_13,
             R.string.wellnessTitle_13,
             R.drawable.day_13,
             R.string.wellnessDescription_13
         ),
         WellnessDay(
+            14,
             R.string.wellnessDay_14,
             R.string.wellnessTitle_14,
             R.drawable.day_14,
             R.string.wellnessDescription_14
         ),
         WellnessDay(
+            15,
             R.string.wellnessDay_15,
             R.string.wellnessTitle_15,
             R.drawable.day_15,
             R.string.wellnessDescription_15
         ),
         WellnessDay(
+            16,
             R.string.wellnessDay_16,
             R.string.wellnessTitle_16,
             R.drawable.day_16,
             R.string.wellnessDescription_16
         ),
         WellnessDay(
+            17,
             R.string.wellnessDay_17,
             R.string.wellnessTitle_17,
             R.drawable.day_17,
             R.string.wellnessDescription_17
         ),
         WellnessDay(
+            18,
             R.string.wellnessDay_18,
             R.string.wellnessTitle_18,
             R.drawable.day_18,
             R.string.wellnessDescription_18
         ),
         WellnessDay(
+            19,
             R.string.wellnessDay_19,
             R.string.wellnessTitle_19,
             R.drawable.day_19,
             R.string.wellnessDescription_19
         ),
         WellnessDay(
+            20,
             R.string.wellnessDay_20,
             R.string.wellnessTitle_20,
             R.drawable.day_20,
             R.string.wellnessDescription_20
         ),
         WellnessDay(
+            21,
             R.string.wellnessDay_21,
             R.string.wellnessTitle_21,
             R.drawable.day_21,
             R.string.wellnessDescription_21
         ),
         WellnessDay(
+            22,
             R.string.wellnessDay_22,
             R.string.wellnessTitle_22,
             R.drawable.day_22,
             R.string.wellnessDescription_22
         ),
         WellnessDay(
+            23,
             R.string.wellnessDay_23,
             R.string.wellnessTitle_23,
             R.drawable.day_23,
             R.string.wellnessDescription_23
         ),
         WellnessDay(
+            24,
             R.string.wellnessDay_24,
             R.string.wellnessTitle_24,
             R.drawable.day_24,
             R.string.wellnessDescription_24
         ),
         WellnessDay(
+            25,
             R.string.wellnessDay_25,
             R.string.wellnessTitle_25,
             R.drawable.day_25,
             R.string.wellnessDescription_25
         ),
         WellnessDay(
+            26,
             R.string.wellnessDay_26,
             R.string.wellnessTitle_26,
             R.drawable.day_26,
             R.string.wellnessDescription_26
         ),
         WellnessDay(
+            27,
             R.string.wellnessDay_27,
             R.string.wellnessTitle_27,
             R.drawable.day_27,
             R.string.wellnessDescription_27
         ),
         WellnessDay(
+            28,
             R.string.wellnessDay_28,
             R.string.wellnessTitle_28,
             R.drawable.day_28,
             R.string.wellnessDescription_28
         ),
         WellnessDay(
+            29,
             R.string.wellnessDay_29,
             R.string.wellnessTitle_29,
             R.drawable.day_29,
             R.string.wellnessDescription_29
         ),
         WellnessDay(
+            30,
             R.string.wellnessDay_30,
             R.string.wellnessTitle_30,
             R.drawable.day_30,

@@ -19,9 +19,8 @@ import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Scaffold
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
-import androidx.compose.runtime.mutableStateOf
-import androidx.compose.runtime.remember
-import androidx.compose.runtime.setValue
+import androidx.compose.runtime.collectAsState
+import androidx.lifecycle.viewmodel.compose.viewModel
 import androidx.compose.runtime.getValue
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.layout.ContentScale
@@ -34,11 +33,15 @@ import com.example.wellnessdaily.R
 import com.example.wellnessdaily.data.DataSource
 import com.example.wellnessdaily.model.WellnessDay
 import com.example.wellnessdaily.ui.theme.WellnessDailyTheme
+import com.example.wellnessdaily.viewmodel.WellnessViewModel
 
 @Composable
 fun WellnessDailyApp(
-    modifier: Modifier = Modifier
+    modifier: Modifier = Modifier,
+    wellnessViewModel: WellnessViewModel = viewModel()
 ) {
+    val uiState by wellnessViewModel.uiState.collectAsState()
+
     Scaffold(
         modifier = modifier.fillMaxSize(),
         topBar = {
@@ -47,7 +50,11 @@ fun WellnessDailyApp(
     ) { contentPadding ->
         WellnessDailyLayout(
             wellness = DataSource.wellness,
-            contentPadding = contentPadding
+            expandedItems = uiState.expandedItems,
+            onToggleExpanded = {
+                wellnessViewModel.toggleExpanded(it)
+            },
+            contentPadding = contentPadding,
         )
     }
 }
@@ -69,6 +76,8 @@ fun WellnessTopAppBar(modifier: Modifier = Modifier) {
 @Composable
 fun WellnessDailyLayout(
     wellness: List<WellnessDay>,
+    expandedItems: Set<Int>,
+    onToggleExpanded: (Int) -> Unit,
     modifier: Modifier = Modifier,
     contentPadding: PaddingValues = PaddingValues(0.dp)
 ) {
@@ -79,6 +88,10 @@ fun WellnessDailyLayout(
         items(wellness) { day ->
             WellnessDayItem(
                 day = day,
+                expanded = day.id in expandedItems,
+                onToggleExpanded = {
+                    onToggleExpanded(day.id)
+                },
                 modifier = Modifier.padding(horizontal = 16.dp, vertical = 8.dp)
             )
         }
@@ -88,11 +101,14 @@ fun WellnessDailyLayout(
 @Composable
 fun WellnessDayItem(
     day: WellnessDay,
+    expanded: Boolean,
+    onToggleExpanded: () -> Unit,
     modifier: Modifier = Modifier
 ) {
-    var expanded by remember { mutableStateOf(false) }
     Card(
-        modifier = modifier.clickable { expanded = !expanded },
+        modifier = modifier.clickable {
+            onToggleExpanded()
+        },
         elevation = CardDefaults.cardElevation(defaultElevation = 2.dp)
     ) {
         Column(

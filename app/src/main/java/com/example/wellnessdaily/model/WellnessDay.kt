@@ -4,6 +4,7 @@ import androidx.annotation.DrawableRes
 import androidx.annotation.StringRes
 
 data class WellnessDay(
+    val id: Int,
     @StringRes val wellnessDay: Int,
     @StringRes val wellnessTitle: Int,
     @DrawableRes val wellnessImage: Int,
